@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: Bebas Neue;
-    src: url(../pacote-projeto-d010/fontes/BebasNeue-Regular.ttf) format('truetype');
+    src: url(../fontes/BebasNeue-Regular.ttf) format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: Android;
-    src: url(../pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    src: url(../fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -101,7 +101,7 @@ main{
 }
 
 main h1{
-    background-color: var(--cor5);
+    color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size:  1.8em;
